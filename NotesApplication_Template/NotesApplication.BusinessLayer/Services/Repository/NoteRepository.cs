@@ -19,32 +19,32 @@ namespace NotesApplication.BusinessLayer.Services.Repository
 
         public async Task<Note> AddNote(Note note)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
-
         }
 
         public async Task<Note> DeleteNote(int noteId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
-
         }
 
         public async Task<IEnumerable<Note>> GetAllNotes()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
-
         }
 
         public async Task<Note> GetNoteById(int noteId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
-
         }
 
         public async Task<Note> UpdateNote(int noteId,string status)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
-
         }
     }
 }

@@ -8,8 +8,6 @@ namespace NotesApplication.Entities
 {
     public class Note
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int NoteId { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
